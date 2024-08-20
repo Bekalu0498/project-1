@@ -1,0 +1,166 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    background-color: white;
+}
+
+.nav-container {
+    background-color: #404040;
+    display: flex;
+    align-items: center; 
+    height: 60px; 
+    width: 100%; 
+}
+
+nav {
+    margin: 0;
+    flex-grow: 1;
+}
+
+nav ul {
+    list-style-type: none;
+    padding: 0;
+    text-align: right;
+}
+
+nav ul li {
+    display: inline;
+    margin-right: 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    padding: 15px 10px;
+}
+
+nav ul li a:hover {
+    background-color: yellow;
+    color: black;
+}
+
+nav ul li a.contact {
+    background-color: yellow;
+    color: black;
+    padding: 15px 10px; 
+    border-radius: 4px;
+}
+
+.logo {
+    height: 50px; 
+    width: 50px;
+    margin-right: 20px;
+}
+
+main {
+    padding: 1rem;
+    text-align: center;
+    margin-top: 10px; 
+}
+
+.responsive-img {
+    width: 100%; 
+    max-width: 1300px; 
+    height: 400px; 
+    object-fit: cover;
+    display: block; 
+    margin: 0 auto; 
+}
+
+h2 {
+    margin-top: 20px;
+    text-align: left;
+}
+
+.plans-container {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+
+.plan {
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    padding: 15px;
+    width: 30%; 
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
+
+.order-button {
+    background-color: yellow;
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    font-size: 16px;
+    border-radius: 4px;
+    margin-top: 10px; 
+}
+
+.order-button:hover {
+    background-color: #ffcc00; 
+}
+
+.hosting-container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.hosting {
+    background: white;
+    padding: 15px;
+    flex: 1;
+    margin: 0 10px;
+    text-align: center;
+}
+
+button {
+    background-color: white;
+    color: yellow;
+    padding: 5px 10px;
+    border: none;
+    cursor: pointer;
+    font-size: 20px;
+    align-self: flex-start; 
+    margin-left: 0; 
+
+button:hover {
+    background-color: #005f73;
+}
+
+footer {
+    display: flex;
+    background: #404040; 
+    padding: 20px;
+    align-items: center; 
+}
+
+.footer-logo {
+    height: 100px; 
+    width: auto; 
+}
+
+.contact-info-container {
+    display: flex;
+    flex: 0 0 75%; 
+    background: #fff;
+    padding: 15px;
+    border-radius: 5px;
+    margin-left: 20px; 
+
+.contact-infos,
+.direct-lines {
+    margin-right: 20px; 
+}
+
+.contact-infos h2,
+.direct-lines h4 {
+    margin-top: 0; 
+}
+}
+}
